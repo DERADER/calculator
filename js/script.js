@@ -25,22 +25,11 @@ function clearAll() {
     out.textContent = 0;
 }
 
+clearAll();
+
 document.querySelector('[data-clear]').addEventListener('click', (e) => {
     clearAll();
 });
-
-function oper() {
-    calcNumbers.forEach(item => {
-        item.addEventListener('click', (e) => {
-            const key = e.target.textContent;
-            if (actions.includes(key)) {
-                sign = key;
-                out.textContent = sign;
-                return;
-            }
-        });
-    });
-}
 
 
 calcNumbers.forEach(item => {
