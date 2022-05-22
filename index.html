@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="calc__wrapper">
+        <div class="calc__inner">
+            <div class="calc__check">
+                <div class="calc__history">
+                    <p>6000<span>/</span>2<span>+</span><span>*</span>2</p>
+                </div>
+                <div class="calc__total">
+                    =<span>12,454</span>
+                </div>
+            </div>
+            <div class="calc__btns">
+                <div data-tools class="calc__btn calc__tools"><img src="images/e_num.svg" alt="e"></div>
+                <div data-tools class="calc__btn calc__tools"><img src="images/u_num.svg" alt=""></div>
+                <div data-tools class="calc__btn calc__tools"><img src="images/sin_num.svg" alt=""></div>
+                <div data-tools class="calc__btn calc__tools"><img src="images/deg_num.svg" alt=""></div>
+                <div data-clear class="calc__btn calc__clear"><img src="images/Ac.svg" alt=""></div>
+                <div data-delete class="calc__btn calc__clear"><img src="images/clear.svg" alt=""></div>
+                <div data-operators class="calc__btn calc__operators">/</div>
+                <div data-operators class="calc__btn calc__operators">*</div>
+                <div data-operators class="calc__btn calc__operators calc__operatos--1">+</div>
+                <div data-operators class="calc__btn calc__operators calc__operatos--2">-</div>
+                <div data-operators class="calc__btn calc__operators calc__operatos--3">=</div>
+                <div data-number="0" class="calc__btn calc__number calc__number-big">0</div>
+                <div data-number class="calc__btn calc__number">.</div>
+                <div data-number="7" class="calc__btn calc__number calc__number--1">7</div>
+                <div data-number="8" class="calc__btn calc__number calc__number--2">8</div>
+                <div data-number="9" class="calc__btn calc__number calc__number--3">9</div>
+                <div data-number="4" class="calc__btn calc__number calc__number--4">4</div>
+                <div data-number="5" class="calc__btn calc__number calc__number--5">5</div>
+                <div data-number="6" class="calc__btn calc__number calc__number--6">6</div>
+                <div data-number="1" class="calc__btn calc__number calc__number--7">1</div>
+                <div data-number="2" class="calc__btn calc__number calc__number--8">2</div>
+                <div data-number="3" class="calc__btn calc__number calc__number--9">3</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
